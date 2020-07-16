@@ -1,0 +1,14 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: 251px;
+  position: relative;
+  align-items: flex-end;
+}
+
+@media (max-width: 960px) {
+  .details {
+    display: block;
+  }
+}

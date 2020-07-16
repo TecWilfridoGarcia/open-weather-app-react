@@ -1,0 +1,26 @@
+.wrapper-weather {
+  max-width: 825px;
+  width: 84%;
+  height: auto;
+  background-color: #fff;
+  margin: auto;
+  position: relative;
+  padding: 38px;
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  -webkit-box-shadow: -1px 4px 9px 5px rgba(214, 214, 214, 1);
+  -moz-box-shadow: -1px 4px 9px 5px rgba(214, 214, 214, 1);
+  box-shadow: -1px 4px 9px 5px rgba(214, 214, 214, 1);
+}
+
+
+@media (max-width: 960px) {
+  .wrapper-weather {
+    height: 1318px;
+    width: 66%;
+
+  }
+}

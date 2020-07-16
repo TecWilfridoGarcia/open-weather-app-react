@@ -1,0 +1,169 @@
+.wrapper-options {
+  margin-right: 42px;
+  width: 100px;
+
+  .tops {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+    .fa-plus {
+      font-size: 11px;
+      color: gray;
+    }
+
+    .profiles {
+      display: flex;
+      position: relative;
+      width: 70px;
+      height: 18px;
+
+      .profile {
+        width: 15px;
+        height: 15px;
+        border-radius: 7px;
+        object-fit: cover;
+        border: 2px solid white;
+        cursor: pointer;
+        position: absolute;
+
+        &:nth-child(2) {
+          transform: translateX(14px);
+          -webkit-transform: translateX(14px);
+          -moz-transform: translateX(14px);
+          -ms-transform: translateX(14px);
+          -o-transform: translateX(14px);
+        }
+
+        &:nth-child(3) {
+          transform: translateX(28px);
+          -webkit-transform: translateX(28px);
+          -moz-transform: translateX(28px);
+          -ms-transform: translateX(28px);
+          -o-transform: translateX(28px);
+        }
+      }
+    }
+
+    .btn-add {
+      width: 15px;
+      height: 15px;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+      background-color: #7d68e99e;
+      margin-left: 1px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      position: absolute;
+      right: -43px;
+      font-size: 10px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .text {
+      font-size: 10px;
+      color: gray;
+      margin: 0 0px;
+      width: 234px;
+    }
+  }
+
+  .option-one {
+    width: 155px;
+    height: 47px;
+    background-image: url('https://www.marinabaysands.com/content/dam/revamp/ASMrevamp/Aboutus/b2-gallery/b2-7-1400x858.jpg');
+    margin-bottom: 16px;
+    background-size: cover;
+    border-radius: 14px;
+    cursor: pointer;
+    -webkit-box-shadow: -1px 4px 9px 5px rgba(214, 214, 214, 1);
+    -moz-box-shadow: -1px 4px 9px 5px rgba(214, 214, 214, 1);
+    box-shadow: -1px 4px 9px 5px rgba(214, 214, 214, 1);
+    display: flex;
+
+    .fas {
+      color: #fff;
+      width: 21px;
+      font-size: 11px;
+      margin-top: 15px;
+      margin-left: 15px
+    }
+
+    .text-place {
+      color: #fff;
+      font-size: 12px;
+      text-align: left;
+      width: 55%;
+      line-height: 14px;
+      margin-top: 11px;
+    }
+  }
+
+  .option-two {
+    width: 134px;
+    height: 108px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Suntec_City%2C_Fountain_of_Wealth_2%2C_Dec_05.JPG/1200px-Suntec_City%2C_Fountain_of_Wealth_2%2C_Dec_05.JPG');
+    background-size: cover;
+    border-radius: 14px;
+    cursor: pointer;
+    -webkit-box-shadow: -1px 4px 9px 5px rgba(214, 214, 214, 1);
+    -moz-box-shadow: -1px 4px 9px 5px rgba(214, 214, 214, 1);
+    box-shadow: -1px 4px 9px 5px rgba(214, 214, 214, 1);
+    display: flex;
+
+    .fas {
+      color: #fff;
+      width: 21px;
+      font-size: 11px;
+      margin-top: 15px;
+      margin-left: 15px
+    }
+
+    .text-place {
+      color: #fff;
+      font-size: 12px;
+      text-align: left;
+      width: 55%;
+      line-height: 14px;
+      margin-top: 11px;
+    }
+
+    .btn-add {
+      width: 49px;
+      background: #7d68e9;
+      border: none;
+      border-radius: 23px;
+      height: 108px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: translateX(21px);
+
+      &:hover {
+        background: #7157fb;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      .fas {
+        color: #fff;
+        width: 21px;
+        font-size: 11px;
+        margin-top: 0;
+        margin-left: 0
+      }
+    }
+  }
+}
