@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Los datos de la aplicación debes consumirlos a través de la siguiente API
+https://openweathermap.org/current
+2. En el banner superior debes mostrar el clima del día actual de Bogotá
+3. En la parte inferior en la sección  3 days forecast, debes mostrar el clima de los
+próximos tres días.
+4. Una de las fichas de la parte derecha, debe mostrar el clima actual de
+París - Francia (Queremos saber como están nuestros colaboradores en esta ciudad :) )
+5. Los iconos del clima se deben mostrar dependiendo la respuesta de la propiedad main
+en el objecto weather
+ - Ex: Si recibimos &quot;clear&quot; -&gt; Mostramos un sol.
+6. Para las peticiones de la aplicación, no puedes usar el API fetch ni axios.
+7. Para el renderizado puedes usar vanilla JS o el framework que mas te convenga para
+la ocasión. ;)
+7. Puedes desarrollar los estilos como lo prefieras pero si usas SASS, LESS o Stylus
+tendrás puntos adicionales ;)
+8. ¿Crees que podamos abrir el sitio en dispositivos móviles? no nos vendría mal un
+responsive desing ;)
+9. Se debe cumplir 100% con el diseño propuesto.
+10. Debes cargar tu solución en un repositorio en gitlab o github, con
 
-## Available Scripts
 
-In the project directory, you can run:
+-Pasos:
+1.Clonar el repositorio.
+2.Desde la terminal y la ruta del proyecto ejecutar npm install --save.
+3.correr el proyecto npm start.
 
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+-Descripcion:
+He consumido la API https://openweathermap.org/ usando el framework React.Js
+usando el objeto XMLHttpRequest para peticiones GET.
+Para los estilos usé SASS.
+Dependiendo del estado del weather.main cambia la vista (iconos y textos).
+Para las ciudades Lyon y Paris la ubicacion esta determinada por las coordenadas.
+El pronostico de mañana y pasado mañana tambien se esta consumiendo desde el servicio.
+La interfaz es responsive.
